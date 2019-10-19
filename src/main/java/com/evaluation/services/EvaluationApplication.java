@@ -40,7 +40,6 @@ public class EvaluationApplication implements CommandLineRunner {
 		if (n <= m) {
 			return n;
 		}
-		// List<Integer> tempList = new ArrayList<Integer>();
 		Map<Integer, Integer> count = new HashMap<>();
 		EvalObj evalObj = new EvalObj(n);
 		Integer totalP = 0;
